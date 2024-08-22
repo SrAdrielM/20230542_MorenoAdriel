@@ -79,8 +79,45 @@ body {
 #estaWeaa {
   display: flex;
   flex-wrap: wrap;
-  
 }
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}
+
+footer h1.display-5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer h6 {
+  margin-top: 20px;
+  color: #6c757d;
+}
+
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -162,6 +199,8 @@ sup {
   line-height: 0;
   vertical-align: baseline;
 }
+
+.header
 
 sub {
   bottom: -.25em;
